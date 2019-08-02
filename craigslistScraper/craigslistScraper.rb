@@ -62,5 +62,5 @@ def craigslistScraper
   puts "...Done"
 end
 
-#all function
+#call function
 craigslistScraper
