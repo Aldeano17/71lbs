@@ -1,5 +1,4 @@
 # thePower = 3**2
-# puts power
 
 class CalculateThePower
   def initialize(x, y)

@@ -52,7 +52,7 @@ def craigslistScraper
   end
   
   #pass all the info to csv file
-  CSV.open('test.csv', 'wb') do |csv|
+  CSV.open('3x2hoses.csv', 'wb') do |csv|
     csv << ['Title', 'Rent', 'Address', 'URL']
     all_houses.each do |house|
       csv << [house[:title], house[:rent], house[:address], house[:url]]
@@ -62,4 +62,5 @@ def craigslistScraper
   puts "...Done"
 end
 
+#all function
 craigslistScraper
